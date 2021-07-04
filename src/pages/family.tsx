@@ -20,7 +20,7 @@ const family: NextPage<{ quotes: IQuote[] }> = ({ quotes }) => {
             key={name}
           >
             <div className="flex-shrink-0 text-center">
-              <div>
+              <div className="image-wrapper">
                 <Image
                   src={pictureURL}
                   alt={name}

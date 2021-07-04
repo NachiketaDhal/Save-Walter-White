@@ -24,3 +24,9 @@ body {
     @apply text-base lg:text-lg;
   }
 }
+
+.image-wrapper > div {
+  border-width: 3px;
+  border-radius: 50%;
+  border-color: #00ff66;
+}
