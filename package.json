@@ -1,0 +1,33 @@
+{
+  "name": "save-walter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint",
+    "data:import": "ts-node --project tsconfig.seeder.json seeder.ts",
+    "data:destroy": "ts-node --project tsconfig.seeder.json seeder.ts -d"
+  },
+  "dependencies": {
+    "@tailwindcss/jit": "^0.1.18",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.1",
+    "next": "11.0.1",
+    "next-connect": "^0.10.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-paypal-button-v2": "^2.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/react": "^17.0.13",
+    "autoprefixer": "^10.2.6",
+    "eslint": "7.30.0",
+    "eslint-config-next": "11.0.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.3.5"
+  }
+}
